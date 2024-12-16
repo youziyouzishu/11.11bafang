@@ -1,0 +1,1 @@
+const a=r=>/^(https?:\/\/(([a-zA-Z0-9]+-?)+[a-zA-Z0-9]+\.)+[a-zA-Z]+)(:\d+)?(\/.*)?(\?.*)?(#.*)?$/.test(r),e=r=>{if(typeof r=="string")try{return!!JSON.parse(r)}catch{return!1}return!1},n=r=>!r||!e(r)?r:JSON.parse(r);export{n as J,a as i};

@@ -1,0 +1,1 @@
+import{B as S}from"./@tencentcloud-25a17c42.js";const T={[S.TYPES.MSG_TEXT]:"[文本]",[S.TYPES.MSG_IMAGE]:"[图片]",[S.TYPES.MSG_AUDIO]:"[语音]",[S.TYPES.MSG_VIDEO]:"[视频]",[S.TYPES.MSG_FILE]:"[文件]",[S.TYPES.MSG_CUSTOM]:"[自定义消息]",[S.TYPES.MSG_SYSTEM]:"[系统消息]",[S.TYPES.MSG_MERGER]:"[合并消息]",[S.TYPES.MSG_LOCATION]:"[位置消息]"};export{T as m};

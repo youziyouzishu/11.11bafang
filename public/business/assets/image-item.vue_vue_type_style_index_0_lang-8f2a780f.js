@@ -1,0 +1,1 @@
+import{d as o,o as a,c as r,ab as s}from"./@vue-25170201.js";const n=["src"],l=o({__name:"image-item",props:{zoom:{type:Number,default:1},rotate:{type:Number,default:0},src:{type:String,default:""}},setup(t){const e=t;return(c,m)=>(a(),r("img",{class:"image-preview",style:s({transform:`scale(${e.zoom}) rotate(${e.rotate}deg)`}),src:e.src},null,12,n))}});export{l as _};

@@ -1,0 +1,1 @@
+import{q as r}from"./index-7638d9aa.js";function t(){return r.get({url:"/recharge.recharge/getConfig"})}function n(e){return r.post({url:"/recharge.recharge/setConfig",params:e})}function a(e){return r.post({url:"/recharge/recharge",data:e})}function c(){return r.get({url:"/recharge/config"})}export{a,t as g,c as r,n as s};

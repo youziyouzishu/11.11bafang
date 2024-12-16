@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>后台管理系统</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .preload {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+      }
+  
+      .circular {
+        height: 42px;
+        width: 42px;
+        animation: loading-rotate 2s linear infinite;
+      }
+  
+      .circular .path {
+        animation: loading-dash 1.5s ease-in-out infinite;
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: 0;
+        stroke-width: 2;
+        stroke: #4073fa;
+        stroke-linecap: round;
+      }
+  
+      @keyframes loading-rotate {
+        100% {
+          transform: rotate(1turn);
+        }
+      }
+  
+      @keyframes loading-dash {
+  
+        0% {
+          stroke-dasharray: 90, 150;
+          stroke-dashoffset: -40px;
+        }
+  
+        100% {
+          stroke-dasharray: 90, 150;
+          stroke-dashoffset: -120px;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/admin/assets/index-90bac5cf.js"></script>
+    <link rel="modulepreload" crossorigin href="/admin/assets/@vue-a164be7a.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/lodash-es-fbce1780.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/async-validator-dee29e8b.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@element-plus-21ebab28.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/tim-upload-plugin-4412696f.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/tim-profanity-filter-plugin-a7e08ee8.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/vue-84471dcb.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/marked-7f3c3653.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/trtc-sdk-v5-5ba82a9e.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/trtc-cloud-js-sdk-6995d964.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/pinia-ec219911.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/mitt-f7ef348c.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/interactjs-0d94d9f4.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/rtc-detect-b2f0fa0a.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/tuicall-engine-webrtc-9ec0a575.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@tencentcloud-7fc831ec.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/dayjs-0ab82212.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@ctrl-f8748455.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@popperjs-c75af06c.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/normalize-wheel-es-ed76fb12.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/element-plus-69d92160.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@vueuse-ebd2cc93.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/lodash-f986f62a.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/axios-9669b5e1.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/vue-router-b1515852.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/clone-db6b0f3b.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/color-name-b7949e8c.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/color-convert-946e453a.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/color-string-6fa48439.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/color-9254db0b.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/balanced-match-51764fed.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/ms-f6814399.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/css-color-function-7acc3e97.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/nprogress-e3c843bc.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/clipboard-e27f968b.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/vue-clipboard3-b827321c.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/tslib-54e39b60.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/zrender-9797a04d.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/echarts-d6620a89.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/highlight.js-7476ba27.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/@highlightjs-10fbb12e.js">
+    <link rel="modulepreload" crossorigin href="/admin/assets/path-to-regexp-767716ea.js">
+    <link rel="stylesheet" href="/admin/assets/@tencentcloud-f45e0c6e.css">
+    <link rel="stylesheet" href="/admin/assets/element-plus-3c26103e.css">
+    <link rel="stylesheet" href="/admin/assets/nprogress-5466ebbd.css">
+    <link rel="stylesheet" href="/admin/assets/highlight-47e00288.css">
+    <link rel="stylesheet" href="/admin/assets/index-da94fa06.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="preload">
+        <svg viewBox="25 25 50 50" class="circular">
+          <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+        </svg>
+      </div>
+    </div>
+    
+  </body>
+</html>

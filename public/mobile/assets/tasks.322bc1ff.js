@@ -1,0 +1,1 @@
+import{aN as t}from"./index-40b5c4cd.js";function a(){return t.get({url:"/article/cate"})}function r(a){return console.log(a),t.get({url:"/tasks/lists",data:a})}function e(a){return t.get({url:"/tasks/detail",data:a})}export{a,e as b,r as g};

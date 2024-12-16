@@ -1,0 +1,1 @@
+import{M as n,an as a}from"./@vue-a164be7a.js";let e,s="vue2",t=(r,o)=>({}),i=(r,o)=>{};try{e=3,s="vue3",t=n,i=a}catch{e=3,s="vue3",t=n,i=a}console.warn(`[adapter-vue]: vue version is ${e}`);export{t as c,s as f,i as r,e as v};
